@@ -1,4 +1,6 @@
 import Home from "./website/Home";
+import About from "./website/About";
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const App = () => {
@@ -6,14 +8,12 @@ const App = () => {
 		<>
 			<Router>
 				<Switch>
-                    <Route path="/" exact component={Home} />
-					<Route path="/Themes" exact component={Themes} />
-
-					<Route path="/Elegant" exact component={Elegant}/>              
-                </Switch>
-            </Router>
-        </>
-);
+          <Route path="/" exact component={Home} />
+					<Route path="/About" exact component={About} />
+				</Switch>
+			</Router>
+		</>
+	);
 };
 
 export default App;
