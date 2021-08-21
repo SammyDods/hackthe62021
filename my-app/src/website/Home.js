@@ -1,5 +1,6 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
+import title from "./title.png";
 
 var name = ("Enter your name: ");
 
@@ -7,9 +8,14 @@ var name = ("Enter your name: ");
 function Home(){
 	return (
 		<>
-			<div className = "title">SOCIAL DISDANCE</div>
-			<input type="text" id="textbox" onkeyup="myFunction()" ></input>
-			<button onclick="returnText()">Submit</button>
+			<div className = "title-screen">
+				<img className="title" src={title}/>
+				<div className = "start-button">
+					<h1 className = "button">START</h1>
+				</div>
+			</div>
+
+
 
 
 		</>
