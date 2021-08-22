@@ -1,0 +1,84 @@
+.player-header{
+	background-color: #182155;
+	height: 100%;
+	overflow-y: hidden;
+}
+
+.players{
+	font-size: 45px;
+	font-family: 'pt sans';	
+	text-align: center;
+	padding-top: 150px;
+	color:rgb(255, 255, 255);
+	padding-bottom: 30px;
+}
+
+.buttons{
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 170px;
+	padding-right: 170px;
+	padding-top: 60px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	padding-bottom: 32%;
+}
+
+.two{
+	color: white;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 5px;
+	text-decoration: none;
+	border-style: solid;
+	border-color:white;
+	border-width: 5px;
+	padding-block: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.two:hover{
+	color: rgb(255, 0, 212);
+	border-color: rgb(255, 0, 212);
+}
+
+.three{
+	color: white;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 5px;
+	text-decoration: none;
+	border-style: solid;
+	border-color:white;
+	border-width: 5px;
+	padding-block: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.three:hover{
+	color: rgb(0, 255, 21);
+	border-color: rgb(0, 255, 21);
+}
+
+.four{
+	color: white;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 5px;
+	text-decoration: none;
+	border-style: solid;
+	border-color:white;
+	border-width: 5px;
+	padding-block: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.four:hover{
+	color: rgb(0, 255, 255);
+	border-color: rgb(0, 255, 255);
+}

@@ -7,9 +7,8 @@ function Home(){
 	return (
 		<>
 			<div className = "title-screen">
-				<img className="title" src={title}/>
 				<div className = "start-button">
-					<Link className="cams" to="/cams">
+					<Link className="Players" to="/Players">
 						<h1 className = "button">START</h1>
 					</Link>
 				</div>
