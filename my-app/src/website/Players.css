@@ -1,8 +1,11 @@
 .player-header{
-	background-color: #182155;
+	background-image: url("background.png");
 	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	overflow-y: hidden;
-}
+  }
 
 .player-text{
 	font-size: 45px;
@@ -23,7 +26,7 @@
 	padding-top: 60px;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 2px;
-	padding-bottom: 32%;
+	padding-bottom: 30%;
 }
 
 .two{
@@ -58,8 +61,8 @@
 }
 
 .three:hover{
-	color: rgb(0, 255, 21);
-	border-color: rgb(0, 255, 21);
+	color: rgb(140, 0, 255);
+	border-color: rgb(140, 0, 255);
 }
 
 .four{
@@ -76,6 +79,6 @@
 }
 
 .four:hover{
-	color: rgb(140, 0, 255);
-	border-color: rgb(140, 0, 255);
+	color: rgb(0, 255, 21);
+	border-color: rgb(0, 255, 21);
 }

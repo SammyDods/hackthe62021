@@ -1,8 +1,8 @@
 import Home from "./website/Home";
 import Players from "./website/Players";
-import two from "./website/players/two";
-import three from "./website/players/three";
-import four from "./website/players/four";
+import two from "./website/two";
+import three from "./website/three";
+import four from "./website/four";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 

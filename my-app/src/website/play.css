@@ -1,0 +1,30 @@
+.players-block{
+	background-image: url("background.png");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-y: hidden;
+  }
+
+.dance-video{
+    float: left;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-bottom: 104px;
+}
+
+.players{
+    float: right;
+    margin-right: 40px;
+    margin-top: 40px;
+    font-size: 10px;
+    font-family: pt sans;
+    color: white;
+}
+
+.dancer{
+  width: 150px;
+  padding-left: 90px;
+  margin: 7px;
+}

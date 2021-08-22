@@ -1,8 +1,10 @@
 import "./play.css";
-import vid1 from "./p1.mp4";
-import vid2 from "./p2.mp4";
-import game from "./game.mp4";
+import vid1 from "./vids/p1.mp4";
+import vid2 from "./vids/p2.mp4";
+import game from "./vids/game.mp4";
 import VideoPlayer from "react-video-js-player";
+import d1 from "./pics/d1.png";
+import d2 from "./pics/d2.png";
 
 function two(){
 	return (
@@ -14,14 +16,14 @@ function two(){
 
 				<div className = "players">
                     <div className = "player1">
-						<VideoPlayer src = {vid1} width="370" height="210"/>
-						<h1>DANCER 1</h1>
+						<VideoPlayer src = {vid1} width="340" height="190"/>
 					</div>
+						<img className="dancer" src={d1}/>
 
 					<div className = "player2">
-						<VideoPlayer src = {vid2} width="370" height="210"/>
-						<h1>DANCER 2</h1>
+						<VideoPlayer src = {vid2} width="340" height="190"/>				
 					</div>
+						<img className="dancer" src={d2}/>
 				</div>
 			</div>
 		</>
