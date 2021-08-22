@@ -7,9 +7,15 @@ function Players(){
 			<div className = "player-header">
 				<div className = "players">HOW MANY DANCERS ARE HIP HOPPING?</div>
 				<div className = "buttons">
-					<h1 className = "two">2 DANCERS</h1>
-					<h1 className = "three">3 DANCERS</h1>
-				<	h1 className = "four">4 DANCERS</h1>
+					<Link className="two" to="/2players">
+						<h1>2 DANCERS</h1>
+					</Link>
+					<Link className="three" to="/3players">
+						<h1>3 DANCERS</h1>
+					</Link>
+					<Link className="four" to="/4players">
+						<h1>4 DANCERS</h1>
+					</Link>
 				</div>
 			</div>
 
