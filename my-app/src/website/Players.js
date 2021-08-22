@@ -5,7 +5,7 @@ function Players(){
 	return (
 		<>	
 			<div className = "player-header">
-				<div className = "players">HOW MANY DANCERS ARE HIP HOPPING?</div>
+				<div className = "player-text">HOW MANY DANCERS ARE HIP HOPPING?</div>
 				<div className = "buttons">
 					<Link className="two" to="/2players">
 						<h1>2 DANCERS</h1>
