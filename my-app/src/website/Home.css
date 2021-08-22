@@ -1,11 +1,16 @@
 .title-screen{
-  background-color: black;
+  background-image: url("back.png");
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .title{
-  width: 40%;
+  width: 50%;
   display: block;
   margin: auto;
+  padding-top: 100px;
 }
 
 
@@ -16,12 +21,12 @@
 
 .button{
   color: white;
-  border-style: solid;
-  font-size: 25px;
+  font-size: 15px;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 2px;
   text-decoration: none;
   border-style: solid;
+  border-color:white;
   border-width: 5px;
   padding-block: 10px;
   padding-left: 20px;
@@ -30,8 +35,8 @@
 }
 
 .button:hover{
-  color: aqua;
-  
+  color: #00f5ff;
+  border-color: #00f5ff;
 }
 
 
