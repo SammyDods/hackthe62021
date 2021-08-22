@@ -2,8 +2,6 @@ import "./Home.css";
 import { Link } from "react-router-dom";
 import title from "./title.png";
 
-var name = ("Enter your name: ");
-
 
 function Home(){
 	return (
@@ -11,7 +9,9 @@ function Home(){
 			<div className = "title-screen">
 				<img className="title" src={title}/>
 				<div className = "start-button">
-					<h1 className = "button">START</h1>
+					<Link className="cams" to="/cams">
+						<h1 className = "button">START</h1>
+					</Link>
 				</div>
 			</div>
 
