@@ -1,29 +1,25 @@
 .title-screen{
   background-image: url("back.png");
-  height: 700px;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.title{
-  width: 50%;
-  display: block;
-  margin: auto;
-  padding-top: 100px;
+  overflow-y: hidden;
 }
 
 
 .start-button{
   display:flex;
   justify-content: center;
+  padding-top: 35%;
+  padding-bottom: 15%;
 }
 
 .button{
   color: white;
-  font-size: 15px;
+  font-size: 20px;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   text-decoration: none;
   border-style: solid;
   border-color:white;
@@ -31,7 +27,6 @@
   padding-block: 10px;
   padding-left: 20px;
   padding-right: 20px;
-
 }
 
 .button:hover{
