@@ -8,15 +8,11 @@ function Home(){
 		<>
 			<div className = "title-screen">
 				<div className = "start-button">
-					<Link className="Players" to="/Players">
-						<h1 className = "button">START</h1>
+					<Link className="button" to="/Players">
+						<h1>START</h1>
 					</Link>
 				</div>
 			</div>
-
-
-
-
 		</>
 	);
 };
